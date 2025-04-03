@@ -1,3 +1,22 @@
+This is Next js 14 project that should have login screen and home page, In login screen user should input this as email: test@test.com and this as password :Password123 to succesfully log in and get into app .. where user is being redirected to /hopme page where will be fetched data and displayed in grid.
+
+Normally I would use sha256 to hash the password on frontend and send it to backend hashed where it would be hashed again with bcrypt to insert to db to have the two second layer even the first one should be handled by SSL but just to be sure..
+
+Also after succesful login I would normally use JWT token which would be inputed to cookie to the user's browser and then I would create a middleware file which would be handling all the authorization before every request.
+
+To run this project you need to download it.
+
+Then open command line in root of the project and enter "npm install"
+
+After downloading node-modules is done you can run "npm run build" and after that "npm run start" to get into build and production like version
+
+Or you can run "npm run dev" to get into dev mode version ...
+
+
+#############################################
+#############################################
+#############################################
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
